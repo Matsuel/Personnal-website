@@ -100,3 +100,39 @@ img{
   max-width: 100%;
   height: auto;
 }
+
+.section{
+  padding: 6rem 0 2rem;
+}
+
+.section_title{
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section_subtitile{
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 4rem;
+}
+
+.section_subtitile,
+.section_title{
+  text-align: center;
+}
+
+.container{
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+.button{
+  display: inline-block;
+  background-color: var(--title-color);
+}
