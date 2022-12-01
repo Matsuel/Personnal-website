@@ -110,13 +110,13 @@ img{
   color: var(--title-color);
 }
 
-.section_subtitile{
+.section_subtitle{
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section_subtitile,
+.section_subtitle,
 .section_title{
   text-align: center;
 }
@@ -172,8 +172,15 @@ img{
 }
 
 @media screen and (max-width: 768px) {
+  body{
+    margin: 0 0 var(--header-height);
+  }
   .section{
     padding: 2rem 0.4rem;
+  }
+
+  .section_subtitle{
+    margin-bottom: var(--mb-3);
   }
 }
 
