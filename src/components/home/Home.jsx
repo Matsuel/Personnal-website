@@ -15,9 +15,9 @@ const Home = () => {
 
                     <Data/>
                 </div>
-            </div>
 
-            <ScrollDown/>
+                <ScrollDown/>
+            </div>
         </section>
     )
 }
