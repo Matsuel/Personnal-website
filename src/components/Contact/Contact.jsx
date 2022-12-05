@@ -9,7 +9,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_llm2um8', 'template_httjsu5', form.current, 'mIRuZse5EAW23M5_D')
-      e.targer.reset()
+      e.target.reset()
   };
   return (
     <section className="contact section" id="contact">
