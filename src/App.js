@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Home from './components/home/Home';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
+import Qualifications from './components/Qualifications/Qualifications';
 import Contact from './components/Contact/Contact';
 import Work from './components/Work/Work';
 import Footer from './components/Footer/Footer';
@@ -17,6 +18,7 @@ const App = () =>{
         <Home/>
         <About/>
         <Skills/>
+        <Qualifications/>
         <Work/>
         <Contact/>
       </div>
