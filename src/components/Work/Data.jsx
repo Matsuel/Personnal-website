@@ -4,32 +4,30 @@ export const projectsData= [
     {
         id:1,
         image: Work1,
-        title: 'Web design',
+        title: 'My site',
         category: 'web',
+        link:'https://github.com/Matsuel/Personnal-website.git',
     },
     {
         id:2,
         image: Work1,
-        title: 'etub design',
-        category: 'wev',
+        title: 'Battle card games',
+        category: 'python',
+        link:'https://github.com/Matsuel/Jeux-de-Bataille-POO-Python.git',
     },
     {
         id:3,
         image: Work1,
-        title: 'Web design',
-        category: 'wev',
+        title: 'Puzzle',
+        category: 'python',
+        link:'https://github.com/Matsuel/Taquin-Python.git',
     },
     {
         id:4,
         image: Work1,
-        title: 'Web design',
-        category: 'wev',
-    },
-    {
-        id:5,
-        image: Work1,
-        title: 'Web design',
-        category: 'wev',
+        title: 'Classic-Hangman',
+        category: 'golang',
+        link:'https://github.com/Matsuel/hangman-classic.git',
     },
 ];
 
@@ -41,9 +39,9 @@ export const projectsNav= [
         name:'web',
     },
     {
-        name:'app',
+        name:'python',
     },
     {
-        name:'design',
+        name:'golang',
     },
 ];
