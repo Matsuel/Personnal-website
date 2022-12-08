@@ -66,3 +66,47 @@
     background-color: var(--title-color);
     color: var(--container-color);
 }
+
+@media screen and (max-width: 992px) {
+    .work_container{
+        gap: 1.25rem;
+    }
+
+    .work_card{
+        padding: 1rem;
+    }
+
+    .work_img {
+        margin-bottom: 0.75rem;
+    }
+
+    .work_title{
+        margin-bottom: 0.25rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .work_container{
+        grid-template-columns: max-content;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .work_container{
+        grid-template-columns: 1fr;
+    }
+
+    .work_img{
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .work_item{
+        font-size: var(--small-font-size);
+    }
+
+    .work_filters{
+        column-gap: 0.25rem;
+    }
+  }
