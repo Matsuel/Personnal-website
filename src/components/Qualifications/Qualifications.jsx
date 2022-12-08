@@ -31,10 +31,10 @@ const Qualifications = () => {
                 <div className={toggleState===1 ? "qualifications_content qualifications_content-active": "qualifications_content"}>
                     <div className="qualifications_data">
                         <div>
-                            <h3 className="qualifications_title">Ynov</h3>
-                            <span className="qualifications_subtitle">Ynov bordeaux Campus</span>
+                            <h3 className="qualifications_title">Lycee</h3>
+                            <span className="qualifications_subtitle">Elie Faure- Lormont</span>
                             <div className="qualifications_calendar">
-                                <i className="uil uil-calendar-alt"></i> kk-2027
+                                <i className="uil uil-calendar-alt"></i> 2019-2022
                             </div>
                         </div>
 
@@ -53,7 +53,7 @@ const Qualifications = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualifications_title">Ynov</h3>
+                            <h3 className="qualifications_title">University</h3>
                             <span className="qualifications_subtitle">Ynov bordeaux Campus</span>
                             <div className="qualifications_calendar">
                                 <i className="uil uil-calendar-alt"></i> 2022-2027
@@ -63,48 +63,15 @@ const Qualifications = () => {
                         
                     </div>
 
-                    <div className="qualifications_data">
-                        <div>
-                            <h3 className="qualifications_title">Ynov</h3>
-                            <span className="qualifications_subtitle">Ynov bordeaux Campus</span>
-                            <div className="qualifications_calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022-2027
-                            </div>
-                        </div>
-
-                        <div className="">
-                            <span className="qualifications_rounder"></span>
-                            <span className="qualifications_line"></span>
-                        </div>
-                    </div>
-
-                    <div className="qualifications_data">
-                        <div></div>
-
-                        <div className="">
-                            <span className="qualifications_rounder"></span>
-                            <span className="qualifications_line"></span>
-                        </div>
-
-                        <div>
-                            <h3 className="qualifications_title">Ynov</h3>
-                            <span className="qualifications_subtitle">Ynov bordeaux Campus</span>
-                            <div className="qualifications_calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022-2027
-                            </div>
-                        </div>
-
-                        
-                    </div>
                 </div>
 
                 <div className={toggleState===2 ? "qualifications_content qualifications_content-active": "qualifications_content"}>
                     <div className="qualifications_data">
                         <div>
-                            <h3 className="qualifications_title">Ynov</h3>
-                            <span className="qualifications_subtitle">Ynov bordeaux Campus</span>
+                            <h3 className="qualifications_title">Personnal Projects</h3>
+                            <span className="qualifications_subtitle">Build my personnals projects during the lockdown</span>
                             <div className="qualifications_calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022-2027
+                                <i className="uil uil-calendar-alt"></i> 2020
                             </div>
                         </div>
 
@@ -112,59 +79,6 @@ const Qualifications = () => {
                             <span className="qualifications_rounder"></span>
                             <span className="qualifications_line"></span>
                         </div>
-                    </div>
-
-                    <div className="qualifications_data">
-                        <div></div>
-
-                        <div className="">
-                            <span className="qualifications_rounder"></span>
-                            <span className="qualifications_line"></span>
-                        </div>
-
-                        <div>
-                            <h3 className="qualifications_title">Ynov</h3>
-                            <span className="qualifications_subtitle">Ynov bordeaux Campus</span>
-                            <div className="qualifications_calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022-2027
-                            </div>
-                        </div>
-
-                        
-                    </div>
-
-                    <div className="qualifications_data">
-                        <div>
-                            <h3 className="qualifications_title">Ynov</h3>
-                            <span className="qualifications_subtitle">Ynov bordeaux Campus</span>
-                            <div className="qualifications_calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022-2027
-                            </div>
-                        </div>
-
-                        <div className="">
-                            <span className="qualifications_rounder"></span>
-                            <span className="qualifications_line"></span>
-                        </div>
-                    </div>
-
-                    <div className="qualifications_data">
-                        <div></div>
-
-                        <div className="">
-                            <span className="qualifications_rounder"></span>
-                            <span className="qualifications_line"></span>
-                        </div>
-
-                        <div>
-                            <h3 className="qualifications_title">Ynov</h3>
-                            <span className="qualifications_subtitle">Ynov bordeaux Campus</span>
-                            <div className="qualifications_calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022-2027
-                            </div>
-                        </div>
-
-                        
                     </div>
                 </div>
             </div>
