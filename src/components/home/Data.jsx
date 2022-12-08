@@ -54,9 +54,10 @@ const Data = () =>{
                   ></path>
                 </svg>
             </h1>
-            <h3 className="home_subtitle">Visual Designer</h3>
+            <h3 className="home_subtitle">Student of computer science </h3>
+            {/* test 
             <p className="home_description">Lorem Ipsum is simply dummy text of the printing and 
-            typesetting industry. Lorem Ipsum has been the industry's .</p>
+            typesetting industry. Lorem Ipsum has been the industry's .</p>*/}
 
             <a href="#contact" className="button button--flex">
                 Say Hello
